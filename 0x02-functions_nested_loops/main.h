@@ -3,3 +3,5 @@
 
 /* _putchar.c */
 int _putchar(char);
+
+#endif
