@@ -5,15 +5,15 @@
  * Return:0 or 1
  */
 
-int print_last_digit(int a)
+int print_last_digit(int n)
 {
-	int bc;
+	int nv;
 
-	if (a < 0)
-		bc = -1 * (a % 10);
+	if (n < 0)
+		nv = -1 * (n % 10);
 	else
-		bc = a % 10;
+		nv = n % 10;
 
 	_putchar(bc + '0');
-		return (bc);
+		return (nv);
 }
