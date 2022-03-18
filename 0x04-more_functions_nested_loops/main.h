@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
 
 /* 0-isupper*/
 int _isupper(int c);
