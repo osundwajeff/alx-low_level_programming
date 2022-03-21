@@ -1,6 +1,6 @@
-#pointers_arrays_strings
+# pointers_arrays_strings
 * This project focuses on pointers, arrays and strins in C.
-##objectives
+## objectives
 * What are pointers and how to use them
 * What are arrays and how to use them
 * What are the differences between pointers and arrays
