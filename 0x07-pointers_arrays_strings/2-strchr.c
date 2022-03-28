@@ -3,8 +3,8 @@
 
 /**
  * _strchr - locates a charachter in string
- * @c: input
  * @s: input
+ * @c: input
  * Return: (success)
  */
 char *_strchr(char *s, char c)
