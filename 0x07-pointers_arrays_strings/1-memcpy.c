@@ -5,6 +5,7 @@
  * to memory area @dest
  * @src: memory area copies from
  * @dest: memory area copied to
+ * @n: number of bytes
  *
  * Return: pointer to @dest
  */
