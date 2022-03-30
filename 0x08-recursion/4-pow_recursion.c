@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * _pow_recursion - function to get x raised to y
  * @x: input
