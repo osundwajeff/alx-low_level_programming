@@ -9,7 +9,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int end1, end2, i = 0;
+	unsigned int end1, end2, i = 0;
 	char *array;
 
 	if (s1 == NULL || s2 == NULL)
@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 	{
 	}
 
-	array = malloc(sizeof(char) * (end1 + end2 + 1));
+	array = (char *) malloc(sizeof(char) * (end1 + end2 + 1));
 
 	if (array == NULL)
 		return (NULL);
