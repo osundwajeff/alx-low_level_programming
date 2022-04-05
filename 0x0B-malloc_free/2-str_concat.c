@@ -9,21 +9,21 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int i, j, z = 0;
+	int end1, end2, i = 0;
 	char *array;
 
 	if (s1 == NULL || s2 == NULL)
 		s1 = s2 = "";
 
-	for (i = 0; i <= *s1; i++)
+	for (end1 = 0; end1 <= *s1; end1++)
 	{
 	}
 
-	for (j = 0; j <= *s2; j++)
+	for (end2 = 0; end2 <= *s2; end2++)
 	{
 	}
 
-	array = malloc(sizeof(char) * (i + j + 1));
+	array = malloc(sizeof(char) * (end1 + end2 + 1));
 
 	if (array == NULL)
 		return (NULL);
@@ -31,14 +31,14 @@ char *str_concat(char *s1, char *s2)
 	while (*s1)
 	{
 		array[i] = *s1;
-		z++;
+		i++;
 		s1++;
 	}
 
 	while (*s2)
 	{
 		array[i] = *s2;
-		z++;
+		i++;
 		s2++;
 	}
 	return (array);
