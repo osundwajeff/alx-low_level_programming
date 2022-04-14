@@ -5,7 +5,7 @@
  * int_index - returns index of the first element
  * @size: number of elements in array
  * @array: array
- * cmp: pointer to function to be used to compare values
+ * @cmp: pointer to function to be used to compare values
  * Return: integer
  */
 int int_index(int *array, int size, int (*cmp)(int))
